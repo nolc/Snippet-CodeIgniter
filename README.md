@@ -4,16 +4,12 @@ Snippet-CodeIgniter
 Sublime Text 2 Snippets para codeigniter
 
 
-#Shortcuts    Acción
+#Shortcuts 
 
 `cic + tab`    Genera la clase Controlador
 
 
-
-
-*(<?php inserted in examples only for syntax highlighting)*
-
-**cicontroller**
+**Controller**
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
@@ -37,8 +33,23 @@ class Name extends CI_Controller
 
 ```
 
-**hello**
+**Model**
 
 
 `cim + tab`    Genera la clase Modelo
 
+```php
+<?php (defined('BASEPATH')) OR exit('No direct script access allowed');
+
+class Name_Model extends CI_Model
+{
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+}
+/* End of file welcome.php */
+/* Location: ./application/models/README.md */
+
+```
