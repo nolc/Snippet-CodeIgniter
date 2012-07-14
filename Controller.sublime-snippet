@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ${1:Name} extends CI_Controller
+{ 
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+	public function index()
+	{
+		
+        
+	}
+
+}
+/* End of file $TM_FILENAME */
+/* Location: ./application/controllers/$TM_FILENAME */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>cic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

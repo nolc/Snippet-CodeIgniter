@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<?php (defined('BASEPATH')) OR exit('No direct script access allowed');
+
+class ${1:Name}_Model extends CI_Model
+{
+	public function __construct()
+	{
+		parent::__construct();
+	}
+
+}
+/* End of file welcome.php */
+/* Location: ./application/models/$TM_FILENAME */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cim</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
