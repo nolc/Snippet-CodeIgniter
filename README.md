@@ -63,6 +63,7 @@ class Name_Model extends CI_Model
 `tll + tab`
 
 ```php
+<?php
 $this->load->library('');
 ```
 
