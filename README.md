@@ -91,7 +91,7 @@ $this->load->library('');
 
 ```php
 <?php
-$this->load->library('');
+$this->load->helper('');
 ```
 
 **input post**
