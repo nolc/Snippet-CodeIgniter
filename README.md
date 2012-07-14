@@ -3,16 +3,16 @@ Snippet-CodeIgniter
 
 Sublime Text 2 Snippets para codeigniter
 
-Install
+##Install
 To install: clone to SublimeCodeigniter within your Sublime Text 2 package folder.
 
 
 #Shortcuts 
 
+**Controller**
+
 `cic + tab`   
 
-
-**Genera la clase Controller**
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
@@ -39,7 +39,7 @@ class Name extends CI_Controller
 **Model**
 
 
-`cim + tab`    Genera la clase Modelo
+`cim + tab`  
 
 ```php
 <?php (defined('BASEPATH')) OR exit('No direct script access allowed');
