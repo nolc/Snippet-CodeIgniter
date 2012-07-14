@@ -56,3 +56,13 @@ class Name_Model extends CI_Model
 /* Location: ./application/models/README.md */
 
 ```
+
+
+**Library**
+
+`tll + tab`
+
+```php
+$this->load->library('');
+```
+
