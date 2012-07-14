@@ -6,10 +6,10 @@ Sublime Text 2 Snippets para codeigniter
 
 #Shortcuts 
 
-`cic + tab`    Genera la clase Controlador
+`cic + tab`   
 
 
-**Controller**
+**Genera la clase Controller**
 
 ```php
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
