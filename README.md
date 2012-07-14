@@ -1,4 +1,6 @@
 Snippet-CodeIgniter
 ===================
 
-Snippet para codeigniter
+Sublime Text Snippets para codeigniter
+
+
