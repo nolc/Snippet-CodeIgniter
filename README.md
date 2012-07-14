@@ -57,8 +57,26 @@ class Name_Model extends CI_Model
 
 ```
 
+**Load Model**
 
-**Library**
+`tlm + tab`
+
+```php
+<?php
+$this->load->model('');
+```
+
+**Load View**
+
+`tlv + tab`
+
+```php
+<?php
+$this->load->view('');
+```
+
+
+**Load Library**
 
 `tll + tab`
 
@@ -67,3 +85,11 @@ class Name_Model extends CI_Model
 $this->load->library('');
 ```
 
+**Load Helper**
+
+`tll + tab`
+
+```php
+<?php
+$this->load->library('');
+```
