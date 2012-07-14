@@ -1,7 +1,7 @@
 Snippet-CodeIgniter
 ===================
 
-Sublime Text 2 Snippets para codeigniter
+Sublime Text 2 Snippets codeigniter
 
 ##Install
 To install: clone to SublimeCodeigniter within your Sublime Text 2 package folder.
