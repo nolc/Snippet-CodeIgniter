@@ -16,19 +16,24 @@ Sublime Text 2 Snippets para codeigniter
 **cicontroller**
 
 ```php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-<?php
+class Name extends CI_Controller
+{ 
+	public function __construct()
+	{
+		parent::__construct();
+	}
 
-/**
-* 
-*/
-class ControllerName extends CI_Controller
-{
 	public function index()
 	{
 		
+        
 	}
+
 }
+/* End of file README.md */
+/* Location: ./application/controllers/README.md */
 
 ```
 
