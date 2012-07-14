@@ -87,9 +87,27 @@ $this->load->library('');
 
 **Load Helper**
 
-`tll + tab`
+`tlh + tab`
 
 ```php
 <?php
 $this->load->library('');
+```
+
+**input post**
+
+`tip + tab`
+
+```php
+<?php
+$this->input->post('');
+```
+
+**uri segment**
+
+`tus + tab`
+
+```php
+<?php
+$this->uri->segment();
 ```
